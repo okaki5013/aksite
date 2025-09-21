@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discord サーバー紹介</title>
+  <style>
+    body {
+      font-family: 'Inter', 'Noto Sans JP', sans-serif;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: #e5e5e5;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* 左上にサーバー名を固定 */
+    .server-name {
+      position: fixed;
+      top: 15px;
+      left: 25px;
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #fff;
+      letter-spacing: 1px;
+      text-shadow: 0 0 8px rgba(88,101,242,0.7);
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 120px auto 40px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #fff;
+      text-shadow: 0 0 10px rgba(255,255,255,0.2);
+    }
+
+    .container p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin: 10px 0;
+      color: #bbb;
+    }
+
+    /* 統計カード */
+    .stats-container {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin-top: 40px;
+    }
+
+    .stat-card {
+      background: #1a1a1a;
+      padding: 20px 40px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(88,101,242,0.5);
+      transition: 0.3s;
+    }
+
+    .stat-card:hover {
+      box-shadow: 0 0 25px rgba(88,101,242,0.9);
+      transform: scale(1.05);
+    }
+
+    .stat-number {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #5865F2;
+    }
+
+    .stat-label {
+      margin-top: 5px;
+      font-size: 1rem;
+      color: #ccc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background: #111;
+      border-top: 1px solid #333;
+    }
+
+    .invite-btn {
+      background: #5865F2;
+      color: white;
+      padding: 15px 35px;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.2rem;
+      text-decoration: none;
+      display: inline-block;
+      transition: 0.3s;
+      box-shadow: 0 0 15px rgba(88,101,242,0.6);
+    }
+
+    .invite-btn:hover {
+      background: #4752C4;
+      box-shadow: 0 0 25px rgba(88,101,242,0.9);
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <!-- 左上固定サーバー名 -->
+  <div class="server-name">🌐 Discord AK Server</div>
+
+  <!-- 中央の紹介文 -->
+  <div class="container">
+    <h1>Welcome to Our Discord</h1>
+    <p>🌟 Discord荒らしツールを仲間とシェアするコミュニティ！</p>
+    <p>🎮 荒らし・スクリプト制作・雑談、幅広く活動中。</p>
+    <p>✨ 初心者から上級者まで、誰でも参加OK！</p>
+    <p>💡 あなたのムカつくサーバーも荒してみませんか？</p>
+    <p>参加するだけで、新しいツールと仲間が手に入ります。</p>
+
+    <!-- 統計表示 -->
+    <div class="stats-container">
+      <div class="stat-card">
+        <div class="stat-number">3+</div>
+        <div class="stat-label">Web tool</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">30+</div>
+        <div class="stat-label">Members</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 下部に参加ボタン -->
+  <footer>
+    <a href="https://discord.gg/b4AgxuGmZ3" target="_blank" class="invite-btn">
+      Discordに参加する
+    </a>
+  </footer>
+  <footer>
+    <a href="https://okaki5013.github.io/tool" target="_blank" class="invite-btn">
+      ツール
+    </a>
+  </footer>
+</body>
+</html>
